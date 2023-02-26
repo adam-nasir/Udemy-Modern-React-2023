@@ -1,6 +1,13 @@
-# Udemy-Modern-React-2023
+# Udemy Modern React Course 2023
 
-Welcome to my workspace where I will be document my journey going through Stephen Grider's React Modern React with Redux [2023 Update].
+![GitHub last commit](https://img.shields.io/github/last-commit/adam-nasir/Udemy-Modern-React-2023)
+
+## Basic Overview
+
+Welcome to my workspace where I will be documenting my journey going through Stephen Grider's React Modern React with Redux [2023 Update].
+
+## Support 
+
 If you are interested in buying the course the link is down there. 
 
 Course : https://www.udemy.com/course/react-redux/ 
