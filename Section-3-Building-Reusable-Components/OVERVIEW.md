@@ -13,5 +13,3 @@
   <li>Install NPM modules</li>  
   <li>Using CSS Library</li>
 </ul>
-
-I am going to explain this.
