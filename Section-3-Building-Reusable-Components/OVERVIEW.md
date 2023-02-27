@@ -1,12 +1,12 @@
 <h1>Section #3 - Building Resuable Components!!</h1>
 
-<p style="color:red">
+<p>
     Welcome to Section #3 Building Resuable Components! In this section Stephen build a simple a card component
     to show you how to create a resuable component.
 </p>
 
 <h2>Mock-Up</h2>
-<img src="">
+<img src="./images/project-image.png">
 
 <h2>Concepts You Will Learn</h2>
 <ul>
