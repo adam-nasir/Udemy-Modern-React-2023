@@ -16,3 +16,5 @@
   <li>Install NPM modules</li>  
   <li>Using CSS Library</li>
 </ul>
+
+<p>Concepts and examples are located in the concept folders, which is in the src folder, which is inside
