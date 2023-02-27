@@ -1,6 +1,6 @@
 <h1>Section #3 - Building Resuable Components!!</h1>
 
-<p align="center">
+<p color="red">
     Welcome to Section #3 Building Resuable Components! In this section Stephen build a simple a card component
     to show you how to create a resuable component.
 </p>
