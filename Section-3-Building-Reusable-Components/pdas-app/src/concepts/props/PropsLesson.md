@@ -1,9 +1,9 @@
 <h1>Prop System and Props Objects</h1>
 
-<h2>What is a props?<h2>
+<h2>What is a props?</h2>
 <p>
     props are data that a parent component to passes to its child component.With this the parent component can configure each child component differently. Showing different text, images, style, etc for each child component.
-<p>
+</p>
 
 <p>
   REMEMBER: But it is one way. The parent can passed to the child components, but not the other way around.
@@ -11,10 +11,10 @@
 
 <h3>Example:</h3>
 <p>Here is your parent component named Parent</p>
-<img src="./images/parent-component.png">
+<img src="./images/parent-component.png" alt="code block" />
 
 <p>Here is your parent component named Parent</p>
-<img src="./images/child-component.png">
+<img src="./images/child-component.png" alt="code block" />
 
 Step 1: We give the parent component data we want to pass to
 as an JSX attribute
