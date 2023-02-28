@@ -11,7 +11,10 @@
 
 <h3>Example:</h3>
 <p>Here is your parent component named Parent</p>
-<img src>
+<img src="./images/parent-component.png">
+
+<p>Here is your parent component named Parent</p>
+<img src="./images/child-component.png">
 
 Step 1: We give the parent component data we want to pass to
 as an JSX attribute
