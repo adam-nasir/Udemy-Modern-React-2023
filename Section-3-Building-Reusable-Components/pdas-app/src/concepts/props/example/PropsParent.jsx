@@ -1,9 +1,9 @@
-/// Pareent component
+/// Parent component
 
 import Child from "./PropsChild";
 
-export default function Parent() {
-  return <Child color="red" fontsize="20px" />;
+function Parent() {
+  return <Child />;
 }
 
-// For this example to work you need to import this into App.jsx
+export default Parent;
