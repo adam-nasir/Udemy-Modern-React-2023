@@ -59,6 +59,4 @@
 
 Ex.
 
-HTML ---> <input type="checkbox">
-
-Component ---> <MyName name="John" />
+<img src="./images/final-example.png" alt="code block">
