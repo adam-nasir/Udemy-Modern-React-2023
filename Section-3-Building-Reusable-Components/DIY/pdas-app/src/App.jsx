@@ -1,11 +1,10 @@
 import "bulma/css/bulma.css";
 import ProfileCard from "./components/ProfileCard";
+import AlexaImg from "./assets/alexa.png";
+import CortanaImg from "./assets/cortana.png";
+import SiriImg from "./assets/siri.png";
 
-import AlexaImage from "./assets/alexa.png";
-import CortanaImage from "./assets/cortana.png";
-import SiriImage from "./assets/siri.png";
-
-export const App = () => {
+function App() {
   return (
     <div className="App">
       <section className="hero is-primary">
@@ -17,28 +16,31 @@ export const App = () => {
       <div className="container">
         <section className="section">
           <div className="columns">
-            <div className="column is-4">
+            <div className="column">
               <ProfileCard
                 title="Alexa"
-                handle="@alexa99"
-                imageUrl={AlexaImage}
-                altInfo="image of Alexa logo"
+                handle="@alex99"
+                imageUrl={AlexaImg}
+                altInfo="Alexa logo"
+                description="Alexa was created by amazon and help people buy stuff."
               />
             </div>
-            <div className="column ">
+            <div className="column">
               <ProfileCard
                 title="Cortana"
                 handle="@cortana32"
-                imageUrl={CortanaImage}
-                altInfo="image of Cortana logo"
+                imageUrl={CortanaImg}
+                altInfo="Cortana logo"
+                description="Cortana was made by Microsoft. Who knows what it does."
               />
             </div>
-            <div className="column is-4">
+            <div className="column">
               <ProfileCard
                 title="Siri"
                 handle="@siri01"
-                imageUrl={SiriImage}
-                altInfo="image of Siri logo"
+                imageUrl={SiriImg}
+                altInfo="Siri logo"
+                description="Siri is being made by Apple and it is being phased out."
               />
             </div>
           </div>
@@ -46,4 +48,6 @@ export const App = () => {
       </div>
     </div>
   );
-};
+}
+
+export default App;

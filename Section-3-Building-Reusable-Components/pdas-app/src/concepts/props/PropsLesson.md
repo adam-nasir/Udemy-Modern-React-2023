@@ -16,14 +16,12 @@
 <p>Here is your parent component named Parent</p>
 <img src="./images/child-component.png" alt="code block" />
 
-Step 1: We give the parent component data we want to pass to
-as an JSX attribute
-
-You can name the atrribute whatever you.
-
-/// Parent component
-function App(){
-return(
+<p>
+ Step 1: We give the parent component data we want to pass to as an JSX attribute.You can name the atrribute whatever you.
+</p>
+<p>
+ Let call it color.
+</p>
 
 <div>
 <Child1 color ="red" />
