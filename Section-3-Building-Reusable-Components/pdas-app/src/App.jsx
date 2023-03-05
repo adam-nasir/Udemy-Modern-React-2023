@@ -1,6 +1,6 @@
 import "bulma/css/bulma.css";
 import ProfileCard from "./components/ProfileCard";
-
+// import Parent from "./concepts/props/example/Parent";
 import AlexaImage from "./assets/alexa.png";
 import CortanaImage from "./assets/cortana.png";
 import SiriImage from "./assets/siri.png";

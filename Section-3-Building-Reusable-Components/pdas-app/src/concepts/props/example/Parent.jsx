@@ -1,6 +1,6 @@
 /// Parent component
 
-import Child from "./PropsChild";
+import Child from "./Child";
 
 function Parent() {
   return <Child firstName="Jacob" lastName="Byron-Mellues" />;

@@ -17,45 +17,39 @@
 <img src="./images/child-component.png" alt="code block" />
 
 <p>
- Step 1: We give the parent component data we want to pass to as an JSX attribute.
+ <strong>Step 1:</strong> We give the parent component data we want to pass to as an JSX attribute.
 </p>
 
-<p>You can name the atrribute whatever you.</p>
+<p>You can name the attrribute whatever you.</p>
  
 <p> In the example we will pass down a first name and last name to child component, called firstName and lastName.
  The attribute values will be two string, firstName is Jacob and lastName is Byron-Mellues.</p>
 
 <img src="./images/parent-props-image-2.png" alt="code block">
 
-<em>REMEMEBER TO SPELL THE ATTRIBUTE NAME CORRECTLY</em>
+<strong>REMEMEBER TO SPELL THE ATTRIBUTE NAME CORRECTLY AND CHECK IT TWICE! We will discuss this later!</strong>
 
-<p>Step 2: React takes all the attributes from the parent component put into an object known as the prop object.</p>
+<p><strong>Step 2:</strong> React takes all the attributes from the parent component put into an object known as the prop object.</p>
 
 <p>Each child component get its own object.</p>
 
+<p>Remember how I say spell the JSX attribute correctly and check! It is because jsx attribute name will be the property name in the prop object </p>
+
 <img src="./images/prop-object-image.png" alt="code block">
 
-<p>Step 3: Props object will be the first argument of the child component.</p>
+<p><strong>Step 3:</strong> Props object will be the first argument of the child component.</p>
+
 <p>You can name it whatever but the convention is to name it props</p>
 
-Ex. /// Child component
-function Child(props){
-return(
+<img src="./images/child-component-prop-image.png" alt="code block">
 
-)
-}
+<p><strong>Step 4:</strong> To use the properties in the props object use the curly brace and inside it use the dot notation to access whatever property you want to use in the object</p>
 
-<p>Step 4: Use the content in the props object however you want.</p>
+<p>In the example we are using both the firstName and lastName properties.</p>
 
-/// Child component
-function Child(props){
-return(
+<img src="./images/child-component-prop-in-use-image.png" alt="code block">
 
-<div color={props.color}></div>
-)
-}
-
-<strong>REMEMEBER TO SPELL THE ATTRIBUTE NAME CORRECTLY AND CHECK IT</strong>
+<strong>REMEMEBER TO SPELL THE ATTRIBUTE NAME AND PROP NAME CORRECTLY AND CHECK IT TWICE OR NO VALUE WILL SHOW ON THE BROWSER because it is undefined!</strong>
 
 <h2>CONFUSION POINT!</h2>
 
@@ -68,5 +62,3 @@ Ex.
 HTML ---> <input type="checkbox">
 
 Component ---> <MyName name="John" />
-
-\*/
