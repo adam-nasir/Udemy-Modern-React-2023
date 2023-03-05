@@ -3,7 +3,7 @@
 import Child from "./PropsChild";
 
 function Parent() {
-  return <Child />;
+  return <Child firstName="Jacob" lastName="Byron-Mellues" />;
 }
 
 export default Parent;

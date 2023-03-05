@@ -5,51 +5,47 @@
     props are data that a parent component to passes to its child component.With this the parent component can configure each child component differently. Showing different text, images, style, etc for each child component.
 </p>
 
-<p>
+<strong>
   REMEMBER: But it is one way. The parent can passed to the child components, but not the other way around.
-</p>
+</strong>
 
 <h3>Example:</h3>
 <p>Here is your parent component named Parent</p>
 <img src="./images/parent-component.png" alt="code block" />
 
-<p>Here is your parent component named Parent</p>
+<p>Here is your child component named Child</p>
 <img src="./images/child-component.png" alt="code block" />
 
 <p>
- Step 1: We give the parent component data we want to pass to as an JSX attribute.You can name the atrribute whatever you.
-</p>
-<p>
- Let call it color.
+ Step 1: We give the parent component data we want to pass to as an JSX attribute.
 </p>
 
-<div>
-<Child1 color ="red" />
-</div>
-)
-}
+<p>You can name the atrribute whatever you.</p>
+ 
+<p> In the example we will pass down a first name and last name to child component, called firstName and lastName.
+ The attribute values will be two string, firstName is Jacob and lastName is Byron-Mellues.</p>
 
-REMEMEBER TO SPELL THE ATTRIBUTE NAME CORRECTLY
+<img src="./images/parent-props-image-2.png" alt="code block">
 
-Step 2: React takes all the attributes from the parent component put into an object
-known as the prop object. Each attribute get its own object.
+<em>REMEMEBER TO SPELL THE ATTRIBUTE NAME CORRECTLY</em>
 
-///Prop Object
+<p>Step 2: React takes all the attributes from the parent component put into an object known as the prop object.</p>
 
-{color: "red"}
+<p>Each child component get its own object.</p>
 
-Step 3: Props object will be the first argument of the child component.
-You can named it whatever but the convention is to name it props
+<img src="./images/prop-object-image.png" alt="code block">
 
-/// Child component
+<p>Step 3: Props object will be the first argument of the child component.</p>
+<p>You can name it whatever but the convention is to name it props</p>
+
+Ex. /// Child component
 function Child(props){
 return(
 
-<div></div>
 )
 }
 
-Step 4: Use the content in the props object however you want.
+<p>Step 4: Use the content in the props object however you want.</p>
 
 /// Child component
 function Child(props){
@@ -59,14 +55,13 @@ return(
 )
 }
 
-REMEMEBER TO SPELL THE ATTRIBUTE NAME CORRECTLY AND CHECK IT
-///-------------------------------------------------------------------
+<strong>REMEMEBER TO SPELL THE ATTRIBUTE NAME CORRECTLY AND CHECK IT</strong>
 
-CONFUSION POINT!
+<h2>CONFUSION POINT!</h2>
 
-I was confused about the props used from html tags and props used react component tags.
-Remember this that HTML tags props are HTML attributes and react component tags props
-are custom attributes you create
+<p>I was confused about the props used for HMTL tags and props used for react component tags.</p>
+
+<p>Remember that HTML tags props are HTML attributes and react component tags props are custom attributes you create.</p>
 
 Ex.
 
